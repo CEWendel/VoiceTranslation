@@ -3,6 +3,7 @@
     /**
     *   Example translating text with both Bing and Google translator
     */
+    //Master Test
 
     //Text to translate and the variables that will store the translated text
     $text_to_translate = "Hello my name is Chris";
