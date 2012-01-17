@@ -1,0 +1,13 @@
+Voice Translation Service using Twilio API
+
+Your Twilio AppSid and AuthToken, both of which are needed to make outgoing calls with your Twilio Number
+are available at http://twilio.com/user/account
+
+The Twilio PHP Helper Library can be downloaded at http://twilio.com/docs/libraries
+The most recent library as of 01/15/12 is included in the "Services" folder
+
+This repo supports either Microsoft or Google Translation Services(note that as of 1/15/12, 
+the Google Translation Service is pay as you go)
+To register as a Bing Developer and get an AppID go to: http://bing/com/toolbox/bingdeveloper
+
+To register as a Google Developer and get an API Key go to the Google API console at http://code.google.com/apis/console

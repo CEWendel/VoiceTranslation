@@ -1,8 +1,10 @@
 <?php
-    require_once('Translation.php');
     /**
     *   Example translating text with both Bing and Google translator
     */
+    //TEST BRANCH
+
+    require_once('Translation.php');
 
     //Text to translate and the variables that will store the translated text
     $text_to_translate = "Hello my name is Chris";
@@ -20,7 +22,7 @@
     $google_translator = new GoogleTranslate($key,$language);
     $translated_google_text = $google_translator->translate($text_to_translate);
 
-    echo "The translation of " . $text_to_translate . "according to the Google Translator is " . $translated_google_text;
+    echo "The translation of " . $text_to_translate . "according to the Google Translator is " . $translated_google_text . '\n';
 
     //Bing appID(gotten from http://bing.com/toolbox/bingdeveloper)
     $appID = "YYYYYYYYY";
